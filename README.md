@@ -10,6 +10,40 @@ This repository contains:
 * **Example Images:** Sample grayscale and color images used for testing.
 * **Report:** A detailed report explaining the methodology, results, and conclusions of the project.
 
+## Development Process (SDLC)
+
+This project was developed with a structured approach based on the Software Development Life Cycle:
+
+**1. Planning and Requirements Gathering:**
+* Objective: Design and implement a subband (wavelet) image coding system in MATLAB for advanced image compression.
+* Stakeholders: Myself (as the student/developer).
+* Requirements: Input of BMP and TIF images, implementation of wavelet decomposition, quantization, and Huffman coding, achievement of specific compression and quality goals, and user-defined quantization.
+* Project Plan: Followed a structured plan based on course requirements and design considerations.
+
+**2. Design:**
+* System Architecture: Encoder (Decomposition -> Quantization -> Entropy Encoding) and Decoder (Entropy Decoding -> Inverse Quantization -> Reconstruction).
+* Algorithm Design: Selected specific wavelet transforms, quantization methods, and Huffman coding.
+* User Interface (Basic): Implemented user control over quantization step sizes via script variables.
+
+**3. Development (or Implementation):**
+* Coding MATLAB scripts for the encoder and decoder functions.
+* Utilizing MATLAB's image processing and signal processing toolboxes.
+
+**4. Testing:**
+* Unit testing of individual functions (e.g., wavelet decomposition, quantization).
+* Integration testing of the complete encoder-decoder system.
+* System testing to evaluate compression ratios and PSNR for various images and settings.
+* Implicit "user acceptance testing" through visual inspection of reconstructed images.
+
+**5. Deployment:**
+* Deployment involved submitting the MATLAB code and a project report.
+* Provided basic instructions on how to run the scripts and adjust parameters.
+
+**6. Maintenance (For a Course Project):**
+* Addressed bugs encountered during development and testing.
+* Considered potential enhancements for future exploration.
+* Documented the code with comments and provided a project report.
+
 ## Functionality
 
 The MATLAB scripts perform the following operations:
